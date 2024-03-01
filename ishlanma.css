@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 6rem;
+    background: linear-gradient(#caecea45, #caecea45);
+    backdrop-filter: 2px;
+    box-shadow: rgb(86, 91, 95) 3px 3px 6px 0px
+    inset, rgba(115, 145, 145, 0.5) -3px -3px 6px 1px, rgba(62, 62, 62, 0.5)
+    3px 3px 6px 1px;
+}
+h1{
+    color: white;
+}
+span{
+    color: red;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    cursor: pointer;
+}
+ul li{
+    font-size: 20px;
+    color: white;
+    letter-spacing: 0.1em;
+    transition: 0.3s;
+}
+ul li:hover{
+    color: white;
+}
+.image{
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    width: 300px;
+    height: auto;
+    animation: raketa 33s linear;
+    z-index: -5;
+    opacity: 0;
+    pointer-events: none;
+   
+}
+@keyframes raketa{
+    0%{
+        top: 95%;
+        left: 10%;
+        opacity: 1;
+    }
+    100%{
+        top: -45%;
+        left: 10%;
+        opacity: 1;
+    }
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url(galaktik.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(0.8);
+}

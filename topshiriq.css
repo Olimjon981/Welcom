@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+    list-style: none;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 6rem;
+    background: linear-gradient(#caecea45, #caecea45);
+    backdrop-filter: 2px;
+    box-shadow: rgb(86, 91, 95) 3px 3px 6px 0px
+    inset, rgba(115, 145, 145, 0.5) -3px -3px 6px 1px, rgba(62, 62, 62, 0.5)
+    3px 3px 6px 1px;
+    background: url(fon\ uchun.jpg);
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightsalmon;
+    font-size: 5rem;
+}
+.mart{
+
+}
